@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+
+.button {
+  background-color: #070707;
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+
+}
+
+/* starting of top nav  */
+
+.top_nav {
+  display: flex;
+  height: 90px;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav_right {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.res_button {
+  background-color: white;
+  color: black;
+  border: 3px solid rgb(13, 19, 33);;
+  border-radius: 10px;
+  font-size: 16px;
+
+}
+
+.res_button:hover {
+  background-color: #63caf0;
+  color: bLACK;
+}
+
+/* End of top nav  */
+
+
+/* Starting of hero section  */
+.hero_section {
+  width: 1440px 100%;
+  height: 780px;
+  background-image: url(/assets/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero_items{
+  width: 1300px;
+height: 650px;
+border: 2px solid red;
+background-color: transparent;
+margin:auto;
+}
+.hero_items img {
+  width: 240.28px;
+height: 240px;
+  margin: 25px auto;
+  display: block;
+}
+
+.hero_items h1{
+  font-size: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero_items p{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 450;
+
+}
+.hero_items p blockquote{
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+
+}
+.contact_button{
+  background: rgb(13, 19, 33);
+  border-radius: 8px;
+  
+
+}
+.c_btn{
+  text-align: center;
+}
+.contact_button:hover {
+  background-color: transparent;
+  color: Black;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+/* Starting of hero section  */
