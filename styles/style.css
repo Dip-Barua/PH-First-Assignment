@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
+  scroll-behavior: smooth;
 }
 a{
   
@@ -55,6 +56,7 @@ a{
 .res_button:hover {
   background-color: rgba(169, 155, 250, 0.884);
   color: bLACK;
+border: 3px solid black;
 }
 
 /* End of top nav  */
@@ -75,6 +77,7 @@ a{
 height: 650px;
 background-color: transparent;
 margin:auto;
+padding: 1rem;
 }
 .hero_items img {
   width: 240.28px;
@@ -92,7 +95,9 @@ height: 240px;
   text-align: center;
   font-size: 18px;
   margin-top: 50px;
+  margin-bottom: 50px;
   font-weight: 450;
+  color: rgba(75, 75, 75, 0.877);
 
 }
 .hero_items p blockquote{
@@ -111,7 +116,8 @@ height: 240px;
 }
 .contact_button:hover {
   background-color: transparent;
-  color: Black;
+  color: black;
+  background-color: rgba(169, 155, 250, 0.884);
   border: 2px solid black;
   border-radius: 8px;
 }
@@ -144,8 +150,8 @@ background: rgba(13, 19, 33, 0.02);
   margin: 40px auto;
  padding:0px 40px;
  text-align: center;
- color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+ color: rgba(75, 75, 75, 0.877);
+ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 }
@@ -205,7 +211,7 @@ margin-top: .89rem;
 .ratio3 .frame_button:hover{
   background-color: rgba(169, 155, 250, 0.884);
   color: Black;
-  border: 1.8px solid black;
+  border: 2px solid black;
   border-radius: 8px;
 }
 
@@ -241,7 +247,7 @@ position: relative;
 .inspiration_text p{
   margin: 0 auto 4rem auto;
   width: 80%;
-  color: rgb(13, 19, 33);
+  color: rgba(75, 75, 75, 0.877);
 }
 
 .video_player{
@@ -281,7 +287,7 @@ position: relative;
 .target-text p{
   margin: 0 auto 4rem auto;
   width: 80%;
-  color: rgb(13, 19, 33);
+  color: rgba(75, 75, 75, 0.877);
 }
 .skill_cards{
   display: flex;
@@ -342,11 +348,11 @@ position: relative;
   font-size: 33px;
   font-weight: 800;
 }
-.target-text p{
+.target_text p{
   margin: 0 auto 4rem auto;
   margin-bottom: 4rem;
   width: 80%;
-  color: rgb(13, 19, 33);
+  color: rgba(75, 75, 75, 0.877);
 }
 .other_target1{
  margin-bottom: 2rem;
@@ -377,9 +383,101 @@ position: relative;
   
   margin: 0 auto 1rem 0;
   width: 100%;
-  color: rgb(13, 19, 33);
+  color: rgba(75, 75, 75, 0.877);
 }
 .longcardtext h4{
   display: block;
 
 }
+/* Next Target Ends Here */
+
+/* Support section starts here */
+
+
+.support{
+  width: 1140px;
+  height: 290px;
+margin: auto;
+padding: 2rem;
+position: relative;
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/handshake.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 16px;
+}
+
+.support_text{
+margin: auto;
+display: block;
+  color: White;
+  width: 60%;
+  text-align: center;
+}
+.support_text h2{
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+
+}
+.support_text p{
+  font-size: 12px;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+
+}
+
+
+
+.feedback{
+  width: 380px;
+  height: 48px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 16px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.submit_button {
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+.submit_button:hover {
+  background-color: rgba(169, 155, 250, 0.884);
+  color: bLACK;
+}
+/* Support Section Ends here */
+
+/* Footer section starts here  */
+
+.footer{
+  margin-top: 3rem;
+  height: 100px;
+  width: 100%;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+}
+.footer_items{
+  height: 40px;
+  margin: auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer_items a{
+  margin: 4px;
+}
+
+/* Footer section ends here */
