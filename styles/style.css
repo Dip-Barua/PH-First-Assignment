@@ -42,14 +42,14 @@
 .res_button {
   background-color: white;
   color: black;
-  border: 3px solid rgb(13, 19, 33);;
+  border: 2px solid rgb(13, 19, 33);;
   border-radius: 10px;
   font-size: 16px;
 
 }
 
 .res_button:hover {
-  background-color: #63caf0;
+  background-color: rgba(169, 155, 250, 0.884);
   color: bLACK;
 }
 
@@ -111,4 +111,114 @@ height: 240px;
   border: 2px solid black;
   border-radius: 8px;
 }
-/* Starting of hero section  */
+/* Ending of hero section  */
+
+/* Starting of 2nd section  */
+
+.second_section{
+  width: 1140px;
+height: 1395px;
+margin: 150px auto;
+border: 2px solid red;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+
+}
+.heading h1{
+  margin-top: 5rem;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Azeret Mono";
+  text-align: center;
+  
+}
+
+.heading p{
+  margin: 40px auto;
+ padding:0px 40px;
+ text-align: center;
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+
+.first_frame{
+  width: 80%;
+  height: 336px;
+  display: flex;
+  padding: 36px;
+  border: 2px solid red;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #ffffff, #fafafb);
+  margin-bottom: 4rem;
+
+}
+.second_frame{
+  
+  width: 80%;
+  height: 336px;
+  display: flex;
+  padding: 36px;
+  border: 2px solid red;
+  border-radius: 8px;
+  background-image: linear-gradient(to right,  #fafafb, #ffffff);
+  margin-bottom: 4rem;
+
+}
+.ratio3{
+  width:60%;
+  border: 2px solid red;
+
+}
+.ratio3 h4{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-top: 2rem;
+}
+.ratio3 p{
+  color: rgb(13, 19, 33);
+font-family: "Azeret Mono";
+font-size: 14px;
+font-weight: 380;
+line-height: 24px;
+letter-spacing: 0%;
+margin-top: .89rem;
+}
+
+.ratio3 .frame_button{
+  color: black;
+  border: 1.8px solid black;
+  background: rgba(13, 19, 33, 0);
+  border-radius: 8px;
+  font-size: 14px;
+
+}
+.ratio3 .frame_button:hover{
+  background-color: rgba(169, 155, 250, 0.884);
+  color: Black;
+  border: 1.8px solid black;
+  border-radius: 8px;
+}
+
+.ratio1
+{
+  width:40%;
+  border: 2px solid red;
+  text-align: center;
+
+}
+.ratio1 img{
+  width: 259.56px;
+height: 217.01px;
+}
+
+/* End of second section  */
